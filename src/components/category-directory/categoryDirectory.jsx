@@ -1,8 +1,7 @@
-import './category-directory.scss';
-import CategoryItem from '../category-item/category-item';
+import './categoryDirectory.scss';
+import CategoryItem from '../category-item/categoryItem';
 
-const CategoryDirectory = ({categories}) => {
-	
+const CategoryDirectory = ({ categories }) => {
 	return (
 		<div className='categories-container'>
 			{categories.map(({ title, imageUrl }) => (
